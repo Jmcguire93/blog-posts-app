@@ -4,4 +4,8 @@ Rails.application.routes.draw do
 
 
   get "/tags", controller: "tags", action: "index"
+
+
+
+  get "/post_tags", controlelr: "post_tags", action: "index"
 end
