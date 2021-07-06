@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+posts = Post.create!([
+  {text: "Hi", title: "Greetings"},
+  {text: "Bye", title: "Salutations"},
+  {text: "You stink", title: "Introductions"}
+])
+
+
+tags = Tag.create!([
+  {name: "Friendly"},
+  {name: "Mean"},
+  {name: "Farewell"}
+])
