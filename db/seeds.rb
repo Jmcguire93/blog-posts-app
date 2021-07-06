@@ -18,3 +18,9 @@ tags = Tag.create!([
   {name: "Mean"},
   {name: "Farewell"}
 ])
+
+post_tags = PostTag.create!([
+  {post_id: 1, tag_id: 1},
+  {post_id: 2, tag_id: 3},
+  {post_id: 2, tag_id: 1}
+])
