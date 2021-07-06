@@ -7,5 +7,5 @@ Rails.application.routes.draw do
 
 
 
-  get "/post_tags", controlelr: "post_tags", action: "index"
+  get "/post_tags", controller: "post_tags", action: "index"
 end
